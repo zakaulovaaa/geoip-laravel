@@ -1,0 +1,21 @@
+{
+    "name": "zakaulovaaa/geoip-laravel",
+    "description": "laravel",
+    "type": "library",
+    "authors": [
+        {
+            "name": "zakaulovaaa",
+            "email": "darya.zakaulova@yandex.ru"
+        }
+    ],
+
+    "repositories": [
+        {
+            "url": "https://github.com/zakaulovaaa/geoip-main.git",
+            "type": "git"
+        }
+    ],
+    "require": {
+        "zakaulovaaa/geoip-main" : "dev-main"
+    }
+}
