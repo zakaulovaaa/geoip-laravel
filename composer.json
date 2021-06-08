@@ -9,6 +9,12 @@
         }
     ],
 
+    "autoload": {
+        "psr-4": {
+            "GeoIp\\": "src/"
+        }
+    },
+
     "repositories": [
         {
             "url": "https://github.com/zakaulovaaa/geoip-main.git",
@@ -17,5 +23,7 @@
     ],
     "require": {
         "zakaulovaaa/geoip-main" : "dev-main"
-    }
+    },
+
+
 }
